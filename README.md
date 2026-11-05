@@ -11,7 +11,7 @@ Each plugin adds test-driven workflows, backed by the TestRail, Testmo, or Xray 
 
 ## Non-Claude agents
 
-These plugins target Claude (Claude Code and the Claude apps — Desktop, web chat, Cowork). For other agents and tools, the same workflows are published as [agentskills.io](https://agentskills.io/specification) skills in [`sembi-iq-skills`](https://github.com/SembiIQ/sembi-iq-skills).
+These plugins target Claude (Claude Code and the Claude apps — Desktop, web chat, Cowork). For other agents and tools, the same workflows are published as [agentskills.io](https://agentskills.io/specification) skills in [`sembi-iq-skills`](https://github.com/sembi-oss/sembi-iq-skills).
 
 ## Prerequisite — connect the Sembi MCP server
 
@@ -47,7 +47,7 @@ This repo is its own plugin marketplace (named `sembi-iq`). Add it, then install
 **For TestRail**, from within a Claude Code session, run these three commands:
 
 ```
-/plugin marketplace add SembiIQ/sembi-iq-plugins
+/plugin marketplace add sembi-oss/sembi-iq-plugins
 ```
 
 ```
@@ -63,7 +63,7 @@ This repo is its own plugin marketplace (named `sembi-iq`). Add it, then install
 **For Testmo**, from within a Claude Code session, run these three commands:
 
 ```
-/plugin marketplace add SembiIQ/sembi-iq-plugins
+/plugin marketplace add sembi-oss/sembi-iq-plugins
 ```
 
 ```
@@ -79,7 +79,7 @@ This repo is its own plugin marketplace (named `sembi-iq`). Add it, then install
 **For Xray**, from within a Claude Code session, run these three commands:
 
 ```
-/plugin marketplace add SembiIQ/sembi-iq-plugins
+/plugin marketplace add sembi-oss/sembi-iq-plugins
 ```
 
 ```
@@ -96,7 +96,7 @@ In **Claude Desktop**:
 
 1. Open the **Customize** menu and go to the **Plugins** tab.
 2. In the **Personal plugins** section, click the **+** button, then choose **Add marketplace**.
-3. Paste the marketplace source — `SembiIQ/sembi-iq-plugins` — and **Sync**.
+3. Paste the marketplace source — `sembi-oss/sembi-iq-plugins` — and **Sync**.
 4. Once it syncs, browse the catalog and click **Install** on `testrail`, `testmo`, or `xray`. Installed plugins activate automatically.
 
 ## Usage
